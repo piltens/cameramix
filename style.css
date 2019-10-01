@@ -38,7 +38,6 @@ section {
   background-image: url("https://i.imgur.com/m3leRvQ.jpg");
   background-repeat: no-repeat;
   display: block;
-  position: fixed;
   background-color:red;
   z-index:2;
 }
