@@ -55,3 +55,8 @@ canvas {
   top:0;
   left:0;
 }
+
+.responsive {
+  width: 100%;
+  height auto;
+}
