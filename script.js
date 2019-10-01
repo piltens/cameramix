@@ -27,8 +27,8 @@ function cameraStart() {
 }
 function getBrightness(){
   // we don't need to scan the whole video, 32 pixels is fine
-  canvas.width = 32 || video.videoWidth;
-  canvas.height = 32 || video.videoHeight;
+  canvas.width = 1 || video.videoWidth;
+  canvas.height = 1 || video.videoHeight;
   canvas.getContext('2d').drawImage(video, 0, 0);
   var ctx = canvas.getContext("2d");
   var imageData = ctx.getImageData(0,0,canvas.width,canvas.height);
