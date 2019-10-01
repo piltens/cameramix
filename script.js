@@ -61,3 +61,4 @@ function getBrightness(){
 window.onload = function(){
   cameraStart();
 }
+
