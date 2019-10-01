@@ -1,5 +1,8 @@
 body {
   margin:0;
+  padding: 0;
+  height: 100%;
+  width: 100%:
 }
 
 aside {
@@ -12,13 +15,15 @@ aside {
 }
 
 body:not(.isDark) #foreground {
+  position: fixed;
   display:none;
 }
 
 video {
-  width:100vw;
-  height:100vh;
-  object-fit:cover;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 section {
@@ -30,6 +35,7 @@ section {
 }
 
 #foreground {
+  position: fixed;
   background-color:red;
   z-index:2;
 }
