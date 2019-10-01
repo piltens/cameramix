@@ -38,6 +38,8 @@ section {
   background-image: url("https://i.imgur.com/m3leRvQ.jpg");
   background-repeat: no-repeat;
   display: block;
+  height: 100%;
+  width: 100%;
   background-color:red;
   z-index:2;
 }
