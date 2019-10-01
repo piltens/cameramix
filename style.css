@@ -34,7 +34,7 @@ section {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: fill;
+  background-size: contain;
   z-index:2;
 }
 
