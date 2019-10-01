@@ -38,9 +38,10 @@ section {
   position: absolute;
   background-image: url("https://i.imgur.com/m3leRvQ.jpg");
   background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  background-color:red;
   z-index:-1;
 }
 
