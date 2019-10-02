@@ -4,7 +4,7 @@ const canvas = document.querySelector('canvas');
 const screenshotImage = document.querySelector('.screenshot');
 const span = document.querySelector('#brightness span');
 // set constraints for camera, change facingMode to "user" for front camera
-var constraints = { video: { facingMode: "rear" }, audio: false };
+var constraints = { video: { facingMode: "environment" }, audio: false };
 // boolean variable to keep tab on whether it's dark or not
 var isDark = false;
 // start camera function
