@@ -25,6 +25,12 @@ function cameraStart() {
     });
   })
 }
+
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.c
+}
+
 function getBrightness(){
   // we don't need to scan the whole video, 32 pixels is fine
   canvas.width = 1 || video.videoWidth;
